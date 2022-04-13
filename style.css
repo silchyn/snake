@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top right, #333, #888);
+}
+#canvas {
+    border: thin solid;
+    border-radius: 10px;
+    -ms-interpolation-mode: nearest-neighbor;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: pixelated;
+    opacity: 0.5;
+}
